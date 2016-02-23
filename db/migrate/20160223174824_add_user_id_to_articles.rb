@@ -1,4 +1,4 @@
-class ChangeDatatyprOfIserId < ActiveRecord::Migration
+class AddUserIdToArticles < ActiveRecord::Migration
   def change
     change_column :articles, :user_id, :integer
   end
